@@ -14,8 +14,10 @@ MCP server for Attio — CRM for contacts, companies, deals, and pipeline.
 
 ## Installation
 
+No install needed — runs directly via `npx`:
+
 ```bash
-npm install -g github:rocketsciencegg/attio-mcp-server
+npx -y github:rocketsciencegg/attio-mcp-server
 ```
 
 ## Configuration
@@ -28,7 +30,8 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
 {
   "mcpServers": {
     "attio": {
-      "command": "attio-mcp-server",
+      "command": "npx",
+      "args": ["-y", "github:rocketsciencegg/attio-mcp-server"],
       "env": {
         "ATTIO_API_KEY": "your-api-key"
       }
@@ -45,7 +48,8 @@ Add to your project's `.mcp.json`:
 {
   "mcpServers": {
     "attio": {
-      "command": "attio-mcp-server",
+      "command": "npx",
+      "args": ["-y", "github:rocketsciencegg/attio-mcp-server"],
       "env": {
         "ATTIO_API_KEY": "${ATTIO_API_KEY}"
       }
