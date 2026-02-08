@@ -6,11 +6,11 @@ MCP server for Attio — CRM for contacts, companies, deals, and pipeline.
 
 | Tool | Description |
 |------|-------------|
-| `search_records` | Search for people, companies, deals, or other CRM records by criteria |
-| `get_pipeline` | Get sales pipeline data with list entries, stages, and values |
-| `get_record_details` | Get full details for a specific record including attributes, notes, and list entries |
-| `list_tasks` | List CRM tasks with assignees, due dates, and linked records |
-| `get_recent_activity` | Get recent activity for a record including notes, meetings, and email threads |
+| `search_records` | Search people/companies/deals with shaped results (extracted name, email, company from nested values), filtered by object type |
+| `get_pipeline` | Sales pipeline with stage-level summaries (count and total value per stage), resolved record names |
+| `get_record_details` | Record with flattened values (common fields extracted to top level), notes, list entries |
+| `list_tasks` | Tasks grouped by completion status, sorted by deadline, with resolved assignee names and linked record names |
+| `get_recent_activity` | Unified timeline of notes, meetings, and email threads sorted by date |
 
 ## Installation
 
