@@ -1,5 +1,8 @@
 # attio-mcp-server
 
+[![CI](https://github.com/rocketsciencegg/attio-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/rocketsciencegg/attio-mcp-server/actions/workflows/ci.yml)
+![Coverage](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/rocketsciencegg/attio-mcp-server/badges/coverage.json)
+
 MCP server for Attio — CRM for contacts, companies, deals, and pipeline.
 
 ## Tools
