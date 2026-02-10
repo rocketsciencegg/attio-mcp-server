@@ -94,7 +94,7 @@ async function batchFetchRecordNames(recordIds: string[]): Promise<Map<string, s
 function createServer() {
 const server = new McpServer({
   name: "attio-mcp-server",
-  version: "2.0.0",
+  version: "2.0.1",
 });
 
 server.registerTool(
